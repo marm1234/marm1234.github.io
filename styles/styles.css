@@ -1,3 +1,87 @@
-h1 {
-    color: red;
+body {
+    margin: 0;
+    background-image: url("../img/page-bg1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+
+.page-header__logo {
+    width: 202px;
+    height: 147px;
+    display: block;
+}
+
+.page-header__nav {
+    display: flex;
+    gap: 50px;
+}
+
+.page-header__nav-link {
+    color: #1F1E1E;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.home {}
+
+.main-header {
+    max-width: 990px;
+    margin: 100px auto 0;
+}
+
+.main-header__image {
+    display: block;
+    width: 100vw;
+    max-width: 100vw;
+    height: auto;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+.home__offers {
+    max-width: 624px;
+    margin: 100px auto 200px;
+    text-align: center;
+}
+
+.offers {
+}
+
+
+.home__about {
+    max-width: 624px;
+    margin: 0 auto 2057px;
+}
+
+.home__upcoming {
+    max-width: 624px;
+    margin: 0 auto 1118px;
+}
+
+.home__listing {
+    max-width: 624px;
+    margin: 0 auto 1463px;
+}
+
+.home__contacts {
+    max-width: 624px;
+    margin: 0 auto 1698px;
+}
+
+.section-title {
+    text-align: center
 }
