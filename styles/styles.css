@@ -23,7 +23,7 @@ body {
     left: 0;
     width: 100%;
     height: 147px;
-    background-color: rgba(222, 222, 222, 0.5);
+    background-color: #dedede80;
     backdrop-filter: blur(20px);
     z-index: 100;
 }
@@ -250,4 +250,50 @@ body {
 
 .listing__event-card {
     width: calc(33.333% - 40px);
+}
+
+
+
+
+
+.booking__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.booking__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr; 
+    margin-bottom: 50px;
+    background-color: #dedede80;
+}
+
+.booking__cell {
+    padding: 5px 20px;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    min-height: 50px;
+}
+
+.booking__cell--feature {
+    justify-content: flex-start;
+}
+
+.booking__cell--value,
+.booking__cell--header {
+    justify-content: center;
+    text-align: center;
+}
+
+.booking__cell--header {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 24px 10px;
 }
